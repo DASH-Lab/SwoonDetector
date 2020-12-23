@@ -1,0 +1,11 @@
+torch
+torchvision
+opencv-python
+tqdm
+Pillow
+numpy
+matplotlib
+timm
+scipy
+pyyaml
+ensemble_boxes
