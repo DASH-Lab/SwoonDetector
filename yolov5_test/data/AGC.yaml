@@ -1,0 +1,13 @@
+train: /media/data2/AGC/generated_frames/kang/train/images
+# val: /media/data2/AGC/generated_frames/kang/val/images
+val: /media/data2/AGC/generated_frames/kang/val_iitp/images
+# test: /media/data2/AGC/generated_frames/kang/val/images
+test: /media/data2/AGC/generated_frames/kang/val_iitp/images
+
+
+# train: /media/data2/dataset/Arirang/256_128/train_tr_final/images
+# val: /media/data2/dataset/Arirang/256_128/train_val_split/images
+# test: /media/data2/dataset/Arirang/256_128/test_split
+
+nc: 1
+names: ['person']
