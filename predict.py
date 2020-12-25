@@ -274,9 +274,11 @@ def cal_iou(boxA, boxB):
     # return the intersection over union value
     return iou
 
+
+# To get more score in this competition, we used heuristic rules that classify whether some person is swwon or not by using witdh, height informations.
 class classifier_h:
     def __init__(self, ratio_threshold):
-        self.ratio_threshold = ratio_threshold
+        self.ratio_threshold = ratio_threshold 
 
     def predict(self, imgs):
         output_list = []
@@ -304,7 +306,9 @@ def main():
     # print("The number of frames to infer:", sum([len(os.listdir(frames)) for frames in glob.glob(os.path.join(test_folder, "*"))]))
 
     #video_list = sorted(glob.glob(os.path.join(test_folder, "*")))
-
+    
+    # if you guys wanna use original classifier to get exact result, use below classifier
+    
     # classifier = classifier_(
     #     model_path1="./classifier_ns_2/1114_1110/bg.pt",
     #     model_path2="./classifier_ns_2/1114_1110/falldown.pt",
