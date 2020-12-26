@@ -325,6 +325,12 @@ def main():
 
    # classifier = classifier_(model_path=os.path.join(basepath, "classifier_ensemble/bestweight_1118"))
     classifier = classifier_h(0.7)
+    '''
+    We used heuristic classifier to get more score, and could get biggest score.
+    but, if you wanna use deep-learning based model , you can revise our code.
+    '''
+    
+    
     detector = HumanDetector(os.path.join(basepath, 'yolov5_test/weight/last.pt'))
     OUTPUT_FILENAME = os.path.join(basepath, 't1_res_U0000000302.json')
 
