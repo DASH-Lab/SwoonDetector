@@ -14,7 +14,6 @@ import cv2
 import json
 import pprint
 import numpy as np
-
 import imageio
 GET_EVERY = 3
 FRAME_RATE = 15
