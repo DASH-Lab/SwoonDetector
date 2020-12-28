@@ -8,6 +8,12 @@ import time
 from tqdm import tqdm
 from jeongho.module_2class import classifier
 
+
+
+'''''
+Not used in this project,
+'''''
+
 img_paths = glob.glob("./test_img(test_falldown)/*")
 img_paths.sort()
 classifier = classifier(model_path1 = "./best_model/efficientnetb0_ns_fit_background_vs_person_stage1stage2_back_vs_person_7_97.11021505376344_False_False.pt",
