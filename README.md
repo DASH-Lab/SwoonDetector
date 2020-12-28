@@ -62,7 +62,7 @@ The structure of the json file is as follows.
 }
 ~~~
 
-you can make video using generated json file (Script will be uploaded soon..)\
+you can make video using generated json file\
 example\
 ![swoon_person](./source/swoon_person.gif)
 
