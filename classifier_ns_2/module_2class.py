@@ -8,6 +8,10 @@ class classifier_sub:
     def __init__(self, model_path1, model_path2, input_size = 128,back_vs_person_padding = False,
                  back_vs_person_normalize = False, normal_vs_falldown_padding = False,
                  normal_vs_falldown_normalize = False):
+        
+        '''
+        model path doesn't be used in this script
+        '''
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         self.model2 = timm.create_model('tf_efficientnet_b0_ns', pretrained=True, num_classes=2)
 
