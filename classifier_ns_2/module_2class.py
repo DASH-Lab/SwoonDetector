@@ -36,6 +36,7 @@ class classifier_sub:
         print("normal_vs_falldown: {}".format(self.transform_normal_vs_falldown))
 
     def predict(self, input_):
+        
         len_input = len(input_)
         PERSON = 1
         BACKGROUND = 2
