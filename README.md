@@ -66,7 +66,7 @@ you can make video using generated json file\
 example\
 ![swoon_person](./source/swoon_person.gif)
 
-
+dataset link : https://drive.google.com/drive/folders/1JfEMxKb70GSEEUKMBqr62UFOsMbpPK8s?usp=sharing
 
 ### TODO
 - trainable code
