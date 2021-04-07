@@ -26,7 +26,7 @@
     /...
 
  ~~~
-you don't have to follow file name but, maintain file structure
+you don't have to follow file name, but maintain file structure
 
 
 [output]
